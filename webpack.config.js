@@ -44,6 +44,7 @@ module.exports = {
   devServer: {
     port: 3000,
     hot: isDev,
+    watchFiles: ['src/**/*'],
   },
   devtool: isDev ? 'source-map' : false,
   plugins: [
